@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="type_array">
+        <item>Pessoa Física</item>
+        <item>Instituição</item>
+        <item>Prestador de Serviço</item>
+    </string-array>
+</resources>

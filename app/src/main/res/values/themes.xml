@@ -1,0 +1,86 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Defina o atributo para a imagem -->
+    <attr name="textColorPrimary" format="color"/>
+
+    <!-- Base application theme. -->
+    <style name="Base.Theme.EcoSupport" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Atribuir o estilo do botão de acordo com o tema do sistema -->
+        <item name="android:windowBackground">@color/lightPrimary</item>
+        <item name="android:textColor">@color/darkPrimary</item>
+        <item name="textColorPrimary">@color/lightPrimary</item>
+
+    </style>
+    <style name="ImageStyle">
+        <item name="android:src">@drawable/my_image_light</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ImageStyle2">
+        <item name="android:src">@drawable/my_image_light_2</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ImageStyle3">
+        <item name="android:src">@drawable/my_image_light_3</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ImageStyle4">
+        <item name="android:src">@drawable/my_image_error_login_light</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ImageStyleSearch">
+        <item name="android:src">@drawable/my_image_search</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/darkPrimary</item>
+    </style>
+
+    <style name="ImageStyleSearchSecondary">
+        <item name="android:src">@drawable/my_image_search_dark</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/lightPrimary</item>
+    </style>
+
+    <!-- Estilo para botão light -->
+    <style name="ButtonLightStyle">
+        <item name="android:background">@drawable/button_light_background</item>
+        <item name="android:textColor">@color/darkPrimary</item>
+        <item name="android:fontFamily">@font/montserrat_alternates_semi_bold</item>
+    </style>
+
+    <!-- Estilo para botão dark -->
+    <style name="ButtonDarkStyle" >
+        <item name="android:background">@drawable/button_dark_background</item>
+        <item name="android:textColor">@color/lightPrimary</item>
+        <item name="android:fontFamily">@font/montserrat_alternates_semi_bold</item>
+    </style>
+
+    <style name="EditTextStyle" >
+        <item name="android:background">@drawable/edit_text_light_background</item>
+        <item name="android:textColor">@color/darkPrimary</item>
+        <item name="android:fontFamily">@font/montserrat_alternates_medium</item>
+    </style>
+
+    <style name="SpinnerBackgroundStyle" >
+        <item name="android:background">@drawable/spinner_light_background</item>
+        <item name="android:popupBackground">@drawable/spinner_light_dropdown_background</item>
+    </style>
+
+
+    <style name="CardBackgroundStyle" >
+        <item name="android:background">@drawable/dashboard_card_background</item>
+    </style>
+
+    <style name="CardBackgroundStyleSecondary" >
+        <item name="android:background">@drawable/dashboard_card_background_secondary</item>
+    </style>
+
+    <style name="Theme.EcoSupport" parent="Base.Theme.EcoSupport" />
+</resources>

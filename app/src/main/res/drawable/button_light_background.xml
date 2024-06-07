@@ -1,0 +1,6 @@
+<!-- res/drawable/button_light_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="@color/lightPrimary" />
+    <stroke android:width="3dp" android:color="@color/darkPrimary" />
+    <corners android:radius="20dp" />
+</shape>
